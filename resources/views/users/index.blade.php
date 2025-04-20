@@ -80,7 +80,7 @@
                     {
                         data: 'created_at',
                         name: 'created_at',
-                       /* render: function(data, type, row) {
+                       render: function(data, type, row) {
                             const date = new Date(data);
                             return date.toLocaleString('en-IN', {
                                 day: '2-digit',
@@ -90,11 +90,11 @@
                                 minute: '2-digit',
                                 hour12: true
                             });
-                        }  */
+                        }  
                     },  {
                         data: 'updated_at',
                         name: 'updated_at',
-                      /*  render: function(data, type, row) {
+                        render: function(data, type, row) {
                             const date = new Date(data);
                             return date.toLocaleString('en-IN', {
                                 day: '2-digit',
@@ -104,7 +104,7 @@
                                 minute: '2-digit',
                                 hour12: true
                             });
-                        } */
+                        } 
                     },
                     {
                         data: 'action',
